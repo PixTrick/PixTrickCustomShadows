@@ -1,2 +1,2 @@
-# PixTrickUnityAssetsAndWork
-A repository to store any kind of (requested) assets or some work. I don't ask anything in return but credit for my work.
+# PixTrickCustomShadows
+A repository to store the custom shadows files made for the custom shadows tutorial. I don't ask anything in return but credit for my work.
