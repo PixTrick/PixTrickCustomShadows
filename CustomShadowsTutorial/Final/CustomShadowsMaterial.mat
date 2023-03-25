@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonShaderAndCustomShadows
-  m_Shader: {fileID: -6465566751694194690, guid: 18e4ebc9eae5718408e4f506c9ad77ee,
+  m_Name: CustomShadowsMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 6b652c6f04e91e841bfa57918bf28922,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,24 +21,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _ShadowPattern:
-        m_Texture: {fileID: 2800000, guid: f9ec97185defc344eb202aa4753196f3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: a638d018027b041429fe2f06b313afa8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_92265a2b60e04539af5ee5184490e524_Out_0:
-        m_Texture: {fileID: 2800000, guid: ac105c9877c42b047a6030870d5ffe13, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_ed9508feff26427ea93453901cf38cae_Out_0:
+    - _MainTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _test_1:
-        m_Texture: {fileID: 2800000, guid: ac105c9877c42b047a6030870d5ffe13, type: 3}
+    - _ShadowTexture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,24 +43,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float: 0.3
-    - _Float_1: 10.33
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimLightStep: 10
     - _ShadowStep: 0.3
+    - _TilingTest: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Color_1: {r: 1, g: 1, b: 1, a: 0}
-    - _Color_2: {r: 1, g: 1, b: 1, a: 0}
-    - _Color_3: {r: 0, g: 0, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowPatternColor: {r: 2, g: 2, b: 2, a: 0}
-    - _ShadowTiling: {r: 200, g: 200, b: 0, a: 0}
-    - _Vector2: {r: 22.03, g: 41.98, b: 0, a: 0}
+    - _ShadowTextureTiling: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4366174607060687229
+--- !u!114 &4282297526288217160
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
