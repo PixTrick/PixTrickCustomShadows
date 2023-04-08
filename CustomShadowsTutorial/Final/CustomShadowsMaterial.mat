@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CustomShadowsMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 6b652c6f04e91e841bfa57918bf28922,
+  m_Shader: {fileID: -6465566751694194690, guid: 83d46a22c49300640a6b055bb504d21e,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
